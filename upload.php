@@ -33,6 +33,9 @@
 
 		</table>
 
-
+		<?
+			echo $_REQUEST['secao'].$_REQUEST['modulo'];
+			var_dump($a);
+			?>
 	</body>
 </html>

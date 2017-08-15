@@ -7,6 +7,8 @@
     </head>
     <body>
 		<form enctype="multipart/form-data" action="upload.php" method="POST">
+			<input type="hidden" id="secao" name="secao" value="excel">
+			<input type="hidden" id="modulo" name="modulo" value="selecao_colunas">
 			<!-- MAX_FILE_SIZE deve preceder o campo input -->
 <!--			<input type="hidden" name="MAX_FILE_SIZE" value="30000" />-->
 			<br>
@@ -23,5 +25,6 @@
 			<br>
 			
 			<input type="submit" value="Enviar arquivo" />
+		</form>
     </body>
 </html>
