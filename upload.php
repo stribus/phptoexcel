@@ -32,7 +32,7 @@
 							<?
 							foreach ($linha as $gey => $celula) {
 								if($gey =='F' && $celula){
-									echo "<td>$celula</td>";									
+                            echo "<td>$celula</td>";
 								} else
 									echo "<td>$celula</td>";									
 							}
