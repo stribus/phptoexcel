@@ -49,17 +49,17 @@ class PHPExcel_Style_NumberFormat extends PHPExcel_Style_Supervisor implements P
 	const FORMAT_PERCENTAGE_00				= '0.00%';
 
 	const FORMAT_DATE_YYYYMMDD2				= 'yyyy-mm-dd';
-	const FORMAT_DATE_YYYYMMDD				= 'yy-mm-dd';
-	const FORMAT_DATE_DDMMYYYY				= 'dd/mm/yy';
+	const FORMAT_DATE_YYYYMMDD				= 'yyyy-mm-dd';
+	const FORMAT_DATE_DDMMYYYY				= 'dd/mm/yyyy';
 	const FORMAT_DATE_DMYSLASH				= 'd/m/y';
 	const FORMAT_DATE_DMYMINUS				= 'd-m-y';
 	const FORMAT_DATE_DMMINUS				= 'd-m';
 	const FORMAT_DATE_MYMINUS				= 'm-y';
-	const FORMAT_DATE_XLSX14				= 'mm-dd-yy';
-	const FORMAT_DATE_XLSX15				= 'd-mmm-yy';
+	const FORMAT_DATE_XLSX14				= 'mm-dd-yyyy';
+	const FORMAT_DATE_XLSX15				= 'd-mmm-yyyy';
 	const FORMAT_DATE_XLSX16				= 'd-mmm';
-	const FORMAT_DATE_XLSX17				= 'mmm-yy';
-	const FORMAT_DATE_XLSX22				= 'm/d/yy h:mm';
+	const FORMAT_DATE_XLSX17				= 'mmm-yyyy';
+	const FORMAT_DATE_XLSX22				= 'm/d/yyyy h:mm';
 	const FORMAT_DATE_DATETIME				= 'd/m/y h:mm';
 	const FORMAT_DATE_TIME1					= 'h:mm AM/PM';
 	const FORMAT_DATE_TIME2					= 'h:mm:ss AM/PM';
@@ -69,7 +69,7 @@ class PHPExcel_Style_NumberFormat extends PHPExcel_Style_Supervisor implements P
 	const FORMAT_DATE_TIME6					= 'h:mm:ss';
 	const FORMAT_DATE_TIME7					= 'i:s.S';
 	const FORMAT_DATE_TIME8					= 'h:mm:ss;@';
-	const FORMAT_DATE_YYYYMMDDSLASH			= 'yy/mm/dd;@';
+	const FORMAT_DATE_YYYYMMDDSLASH			= 'yyyy/mm/dd;@';
 
 	const FORMAT_CURRENCY_USD_SIMPLE		= '"$"#,##0.00_-';
 	const FORMAT_CURRENCY_USD				= '$#,##0_-';
@@ -268,15 +268,15 @@ class PHPExcel_Style_NumberFormat extends PHPExcel_Style_Supervisor implements P
 			self::$_builtInFormats[11] = '0.00E+00';
 			self::$_builtInFormats[12] = '# ?/?';
 			self::$_builtInFormats[13] = '# ??/??';
-			self::$_builtInFormats[14] = 'mm-dd-yy';
-			self::$_builtInFormats[15] = 'd-mmm-yy';
+			self::$_builtInFormats[14] = 'dd/mm/yyyy';
+			self::$_builtInFormats[15] = 'd-mmm-yyyy';
 			self::$_builtInFormats[16] = 'd-mmm';
-			self::$_builtInFormats[17] = 'mmm-yy';
+			self::$_builtInFormats[17] = 'mmm-yyyy';
 			self::$_builtInFormats[18] = 'h:mm AM/PM';
 			self::$_builtInFormats[19] = 'h:mm:ss AM/PM';
 			self::$_builtInFormats[20] = 'h:mm';
 			self::$_builtInFormats[21] = 'h:mm:ss';
-			self::$_builtInFormats[22] = 'm/d/yy h:mm';
+			self::$_builtInFormats[22] = 'm/d/yyyy h:mm';
 
 			self::$_builtInFormats[37] = '#,##0 ;(#,##0)';
 			self::$_builtInFormats[38] = '#,##0 ;[Red](#,##0)';
